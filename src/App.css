@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.kanbanContainer{
+  padding:50px;
+}
+.headingStyle{
+  border-bottom: 1px solid black;
+  padding: 8px;
+}
+.kanbanContainer .row{
+  justify-content: center;
+}
+
+.cardStyle{
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom:10px;
+}
+
+.btnStyle{
+  border: unset;
+  background-color: unset;
+}
+
+.colStyle{
+  border-radius:10px;
+  border:1px solid black;
+  height: auto;
+  min-height: 100px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
